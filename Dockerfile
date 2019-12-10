@@ -5,4 +5,4 @@ FROM node:10.13-alpine
 WORKDIR /app
 
 # デフォルトで node が起動するので sh を代わりに起動
-CMD ["bash"]
+CMD ["sh"]
